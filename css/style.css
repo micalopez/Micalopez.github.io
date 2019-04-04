@@ -1,0 +1,379 @@
+@charset "UTF-8";
+*{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.menu{
+	background-color: black;
+	border-bottom: 1px solid #000000;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+}
+ul{
+	margin: 30px auto;
+	padding: 0 20px;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	width: 190px;
+}
+a{
+	text-decoration: none;
+	color:rgba(255,204,0,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+a:hover{
+	color: darkorange;
+}
+.espacio{
+	clear: both;
+}
+.gride {
+	width:auto;
+	
+	display: grid;
+	position:relative;
+}
+.box{
+	background-color: antiquewhite;
+	color:black;
+	border-radius: 5px;
+	border: 2px #4A4CA7 solid;	
+}
+.header{
+	background: rgba(217,183,25,1.00);
+	box-sizing: border-box;
+	padding: 0px;
+	width: 100%;
+}
+.boxes{
+	width: 120px;
+	height: 70px;
+	position: fixed;
+	bottom: 400px;
+	left: 90%;
+	z-index: 10;
+}
+.boxes a{
+	text-decoration: none;
+	color:grey;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	font-weight: 600;
+	text-transform:none;
+	letter-spacing: 1px;
+}
+.boxes a:hover{
+	color: wheat;
+}
+.Titulo{
+	width: 70%;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	left: 40px;
+	
+}
+h1{
+	color: rgba(217,183,25,1.00);
+	font-size: 10em;
+}
+.intro{
+	background: rgba(217,183,25,1.00);
+	width: 100%;
+	z-index: 1;
+	padding: 5%;
+	position: relative;
+}
+.texto{
+	background-color: black;
+	
+}
+.parrafo{
+	align-content: center;
+	font: normal;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+}
+.imagen{
+	background-color: 0;
+	height:400px;
+	align-content: center;
+}
+
+.contiene{
+	background-image: url(../imagenes/componentes.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	align-content: center;
+	width: 100%;
+	height: 800px;
+	
+}
+
+.texto2{
+	position: relative;
+	top: 100px;
+	
+}
+.parrafo2{
+	align-content: center;
+	font: normal;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	height:150px;
+	width: 300px;
+	margin: 10px;
+}
+.imagen2{
+	background-image: url(../imagenes/componentes.jpg);
+	width: 100%;
+	align-content: center;
+}
+
+.texto3{
+	background-color: black;
+	height:200px;
+	position: relative;
+	top: 100px;	
+}
+.parrafo3{
+	font: normal;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	height:200px;	
+}
+	
+.imagen3{
+	background-color: black;
+	height:400px;
+	align-content: center;
+}
+
+
+
+
+
+.container{
+	background: black;
+	
+	width: 100%;
+	z-index: 1;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 5%;
+	position: relative;
+}
+.grid{
+	display: grid;
+	grid-template-columns:45% 45%;
+	grid-template-rows: repeat(2, 300px);
+	grid-row-gap:20px;
+	grid-column-gap:40px;
+}
+
+.texto1{
+	padding: 2px;
+	
+}
+.col-xs-6-lista{
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+	text-align:left;
+	background:  rgba(217,183,25,1.00);; 
+}
+p{
+	font-size: 20px;
+	color: aliceblue;
+	text-align: justify;
+	padding: 2px;
+}
+.imagen1{
+	background-image:url(../../addict-addiction-ashtray-46183.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.seccion{
+	background:	rgba(0,0,0,1.00);
+	width: 100%;
+	z-index: 2;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.seccion2{
+	background:	rgba(0,0,0,1.00);
+	width: 100%;
+	z-index: 3;
+	position: relative;
+	padding: 5%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	color:rgba(250,205,72,1.00);
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	color:rgba(250,205,72,1.00);
+}
+
+h5 {
+	text-align: justify;
+	font-size: 15px;
+	color:white;
+}
+.componentes h2{
+	text-align: center;
+	font-size: 30px;
+	color:black;	
+}
+p.contacto{
+	text-align: center;
+	font-size: 15px;
+}
+.col-sm-3{
+	box-sizing: border-box;
+	padding-left: 75px;
+}
+
+.formulario{
+	background-image:url(../imagenes/fashion-hair-man-958946.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-content: center;
+	background-attachment: relative;
+	padding: 2%;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 3;
+}
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.40);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+	z-index: 3;
+}
+h5{
+	color: rgba(217,183,62,1.00);
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	background: rgba(0,0,0,0.1);
+	border: 100%;
+	border-color: rgba(217,183,62,1.00);
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+textarea{
+	background: rgba(0,0,0,0.1);
+	border: 100%;
+	border-color: rgba(217,183,62,1.00);
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background: rgba(217,183,62,1.00);
+	padding: 20px;
+	width: 100px;
+	border-radius: 7px;
+	border: none;
+	
+}
+@media(max-width:480px){
+	form´{
+		width: 100%;
+	}
+}
+#boton:hover{
+	cursor: pointer;
+}
+.footer{
+	background: black;
+	z-index: 5;
+}
+.column_title{
+	align-content: center;
+	font: small-caps;
+	color: black;
+	font-size: 14px;
+	padding: 2px;
+	text-align: center;
+}
+.column_title a{
+	text-decoration: none;
+	color:black;
+	letter-spacing: 2px;
+	
+}
+.column_title a:hover{
+	font-style: italic;
+	font-size: 16px;
+}
+
+.verde{
+	position: relative;
+	background: rgba(217,183,62,1.00);
+	height: 50px;
+}
+.acordeon input{
+	display: none;
+}
+.acordeon__subtitulo{
+	display: block;
+	padding: 15px;
+	background: rgba(217,183,25,1.00);
+	color:#fff;
+	font-size: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+.acordeon__subtitulo: hover{
+	color: rgba(255,204,0,1.00);
+}
+.acordeon__contenido{
+	height:0;
+	overflow: hidden;
+	margin:0;
+	transition: all 0.5s;
+}
+p.acordeon__contenido{
+	
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.acordeon input:checked ~ .acordeon__contenido{
+	height: auto;
+	margin: 60px 0;
+}
+
+
